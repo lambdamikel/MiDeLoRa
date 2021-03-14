@@ -110,7 +110,7 @@ caching and merging, memoization & caching, ...).
 Back in these days, I was a big believer in CLOS and object-oriented +
 functional programming in Common Lisp. Inspired by [the infamous
 "Design Patterns" book from Gamma, Helm, Johnson,
-Vlissides,](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612#reader_0201633612),
+Vlissides](https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612#reader_0201633612),
 and specifically by Chapter 2: "A Case Study: Designing a Document
 Editor", where they take the object-orientied approach to the extreme
 and represent even a single character as a class instance in the
@@ -118,9 +118,7 @@ and represent even a single character as a class instance in the
 realizing a DL reasoner. Specifically, the "Undo" history used for
 "Lexi" was something needed for the backtracking. I had implemented
 something similar previously, for [my object-oriented graphical editor
-GenEd](https://github.com/lambdamikel/GenEd). By now I know that it
-did work, to some extent, but that the approach comes at a large cost.
-Well that's an insight as well.
+GenEd](https://github.com/lambdamikel/GenEd).
 
 ## Papers 
 
