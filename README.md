@@ -13,12 +13,12 @@ Note that CLIM is not required, but if you have it, it will give you
 some additional graphical tools, i.e., a taxonomy browser and ABox
 visualizer. See `(require "clim")` in the `midelora-sysdcl.lisp`. 
 
-MiDeLoRa is a framework and *DSL* (= *Domain Specific Language*, also
-know as a *det of Common Lisp macros* ;-)) for constructing
-Description Logic Reasoners.  It also comes with a number of reasoners
-for standard DLs (see `ls alc*` files in the
+MiDeLoRa is a framework and *DSL* (= *Domain Specific Language*, aka
+*a set of Common Lisp macros* ;-)) for constructing Description Logic
+Reasoners.  It also comes with a number of reasoners for standard DLs
+(see `ls alc*` files in the
 [`./src/midelora/prover/`](./src/midelora/prover/)
-subdirectory). MiDeLoRa was part of my PhD thesis work. 
+subdirectory). MiDeLoRa was part of my PhD thesis work.
 
 Here is [a short paper detailing the main ideas behind
 MiDeLoRa](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.144.6295).
