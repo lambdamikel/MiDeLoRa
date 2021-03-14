@@ -94,16 +94,16 @@ its previous state. A very expensive way of implementing backtracking
 search. 
 
 Nevertheless, it was an idea worth pursuing, and although
-MiDeLoRa-defined DL reasoner were not nearly as fast as other
-contenders of that time (Racer, Fact, ...) that used functional and
-light-weight data structures, it was nevertheless fast enough to be
-used in practical Description Logic ontology applications. For
-example, it was used in
-[DLMAPS](https://github.com/lambdamikel/DLMAPS). It was also possible
-to run the LUBM Benchmark with MiDeLoRa. See `(test 1)` here.
+MiDeLoRa-defined DL reasoners were not nearly as fast as other
+contenders of that time (Racer, Fact, ...) that used purely functional
+and hence more light-weight data structures not requiring rollback
+during backtracking, it was nevertheless fast enough to be used in
+practical Description Logic ontology applications. For example, it was
+used in [DLMAPS](https://github.com/lambdamikel/DLMAPS). It was also
+possible to run the LUBM Benchmark with MiDeLoRa. See `(test 1)` here.
 Moreover, in comparison to othe reasoners, MiDeLoRa did not have quite
 as many optimization techniques implemented, and the ones implemented
-were the most basic ones. 
+were the most basic ones.
 
 Back in these days, I was a big believer in CLOS and object-oriented +
 functional programming in Common Lisp. Inspired by [the infamous
