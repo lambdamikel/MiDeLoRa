@@ -101,9 +101,11 @@ during backtracking, it was nevertheless fast enough to be used in
 practical Description Logic ontology applications. For example, it was
 used in [DLMAPS](https://github.com/lambdamikel/DLMAPS). It was also
 possible to run the LUBM Benchmark with MiDeLoRa. See `(test 1)` here.
-Moreover, in comparison to othe reasoners, MiDeLoRa did not have quite
-as many optimization techniques implemented, and the ones implemented
-were the most basic ones.
+Moreover, in comparison to other reasoners of that time period,
+MiDeLoRa did not have quite as many optimization techniques
+implemented, and the ones implemented were the most basic ones
+(semantic branching, dependeny-directed backtracking, model caching,
+...)
 
 Back in these days, I was a big believer in CLOS and object-oriented +
 functional programming in Common Lisp. Inspired by [the infamous
