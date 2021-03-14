@@ -88,8 +88,8 @@ everything. The memory (heap) footprint was rather large. Given that
 these (large) CLOS objects were destructively modified during the
 Tableaux expansion / reasoning process, which sometimes required
 backtracking, a *rollback history* of each Tableaux operations needed
-to be kept. In case backtracking was required, this history was the
-used to revert and undo the operations and restore the object state to
+to be kept. In case backtracking was required, this history was then 
+used to revert and undo the operations and restore the object to
 its previous state. A very expensive way of implementing backtracking
 search. 
 
