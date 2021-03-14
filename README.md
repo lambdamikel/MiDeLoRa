@@ -104,8 +104,8 @@ possible to run the LUBM Benchmark with MiDeLoRa. See `(test 1)` here.
 Moreover, in comparison to other reasoners of that time period,
 MiDeLoRa did not have quite as many optimization techniques
 implemented, and the ones implemented were the most basic ones
-(semantic branching, dependeny-directed backtracking, model caching,
-...)
+(semantic branching, dependency-directed backjumping, basic model
+caching and merging, memoization & caching, ...). 
 
 Back in these days, I was a big believer in CLOS and object-oriented +
 functional programming in Common Lisp. Inspired by [the infamous
